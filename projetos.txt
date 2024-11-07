@@ -1,0 +1,6 @@
+ProjetoA,Desenvolvimento
+ProjetoB,Marketing
+ProjetoC,Recursos Humanos
+ProjetoD,Financeiro
+ProjetoE,Desenvolvimento
+ProjetoF,Marketing

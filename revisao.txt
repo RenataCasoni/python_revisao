@@ -1,0 +1,46 @@
+Manipulação de arquivos: Leitura de dados de arquivos de texto e armazenamento em estruturas de dados apropriadas (dicionários).
+Uso de Dicionários: Estruturação de dados para armazenar colaboradores, projetos, e alocações.
+Funções para Filtragem e Consulta: Funções para verificar se um colaborador participa de um projeto, se pertence a um departamento específico, e se é considerado "sênior".
+Biblioteca pyDatalog: Uso da biblioteca pyDatalog para lógica declarativa e consultas com fatos e regras.
+Condições e Lógica Declarativa: Definição de relações, como quem é colaborador sênior, e consulta usando lógica declarativa.
+Perguntas para prática de revisão
+Como a função importar_dados() carrega dados dos arquivos?
+
+Resposta: A função importar_dados() lê três arquivos de texto (colaboradores.txt, projetos.txt, e alocacoes.txt) e extrai informações, como nome, idade, e departamento dos colaboradores, armazenando esses dados em dicionários.
+Explique a funcionalidade da função ParticipaDe.
+
+Resposta: A função ParticipaDe verifica se um colaborador está alocado a um projeto específico. Ela retorna True se o nome do projeto estiver na lista de projetos alocados ao colaborador e False caso contrário.
+O que define um colaborador como "sênior" no código?
+
+Resposta: Um colaborador é considerado "sênior" se sua idade for maior que 30. Isso é verificado na função Senior, que retorna True se a idade do colaborador for maior que 30.
+Qual é a função de contar_seniores_por_departamento()?
+
+Resposta: A função contar_seniores_por_departamento() calcula e exibe a quantidade de colaboradores sêniores (idade > 30) em cada departamento, utilizando um dicionário para acumular as contagens.
+Como o pyDatalog auxilia na execução do código?
+
+Resposta: pyDatalog permite que o código execute consultas lógicas com base em relações predefinidas, como Colaborador, ParticipaDe, e Senior. Ele facilita a criação de consultas complexas usando lógica declarativa, como listar colaboradores e projetos com base em regras.
+
+Funções
+importar_dados():
+
+Lê arquivos de texto e carrega dados em dicionários: colaboradores, projetos, alocacoes e idades (dependendo da versão do código).
+ParticipaDe(nome_colaborador, nome_projeto):
+
+Retorna True se o colaborador estiver alocado ao projeto especificado, verificando no dicionário alocacoes.
+DepartamentoColaborador(nome_colaborador, nome_departamento):
+
+Retorna True se o colaborador pertencer ao departamento especificado, verificando no dicionário colaboradores.
+Senior(nome_colaborador):
+
+Verifica se o colaborador tem mais de 30 anos usando o dicionário idades.
+listar_colaboradores_projetos_departamentos():
+
+Lista cada colaborador com seu departamento e os projetos aos quais está alocado.
+listar_seniores_e_departamentos():
+
+Exibe todos os colaboradores sêniores e os departamentos aos quais pertencem.
+contar_seniores_por_departamento():
+
+Conta o número de colaboradores sêniores em cada departamento e exibe essas informações.
+Biblioteca pyDatalog
+pyDatalog permite definir fatos e regras em uma abordagem lógica declarativa. A biblioteca permite criar consultas complexas com base nos dados importados, como na consulta de colaboradores sêniores por departamento.

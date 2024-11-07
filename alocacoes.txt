@@ -1,0 +1,9 @@
+Alice,ProjetoA
+Alice,ProjetoE
+Bob,ProjetoB
+Carlos,ProjetoA
+Diana,ProjetoC
+Eva,ProjetoD
+Felipe,ProjetoE
+Gina,ProjetoF
+Bob,ProjetoF

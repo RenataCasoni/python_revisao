@@ -1,0 +1,7 @@
+Alice,35,Desenvolvimento
+Bob,28,Marketing
+Carlos,40,Desenvolvimento
+Diana,32,Recursos Humanos
+Eva,29,Financeiro
+Felipe,45,Desenvolvimento
+Gina,30,Marketing
